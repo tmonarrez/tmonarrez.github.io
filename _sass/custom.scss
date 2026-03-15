@@ -1,5 +1,17 @@
 // Custom styles for tmonarrez.github.io
 
+// Site-wide text color
+.page__content {
+  color: #000;
+}
+
+// Page titles and headings
+h1, h2, h3, h4, h5, h6,
+.page__title,
+.archive__item-title {
+  color: #1a2744;
+}
+
 // Research page paper entries
 .paper-entry {
   padding: 1.4em 0;
@@ -17,7 +29,7 @@
   line-height: 1.4;
 
   a {
-    color: #333;
+    color: #1a2744;
     text-decoration: none;
 
     &:hover {
@@ -28,7 +40,7 @@
 
 .paper-meta {
   font-size: 0.85em;
-  color: #666;
+  color: #000;
   margin-bottom: 0.5em;
 }
 
@@ -39,7 +51,7 @@ details.abstract {
   summary {
     cursor: pointer;
     font-size: 0.82em;
-    color: #888;
+    color: #555;
     font-style: italic;
     list-style: none;
     user-select: none;
@@ -59,11 +71,11 @@ details.abstract {
   .abstract-text {
     font-size: 0.85em;
     line-height: 1.65;
-    color: #555;
+    color: #000;
     padding: 0.7em 1em;
     margin-top: 0.4em;
     background: #f9f9f9;
-    border-left: 3px solid #ddd;
+    border-left: 3px solid #1a2744;
   }
 }
 
@@ -76,15 +88,15 @@ details.abstract {
     padding: 2px 9px;
     margin: 0 4px 4px 0;
     font-size: 0.78em;
-    border: 1px solid #999;
+    border: 1px solid #1a2744;
     border-radius: 3px;
-    color: #555;
+    color: #1a2744;
     text-decoration: none;
 
     &:hover {
-      background: #555;
+      background: #1a2744;
       color: white;
-      border-color: #555;
+      border-color: #1a2744;
       text-decoration: none;
     }
   }
@@ -96,7 +108,7 @@ details.abstract {
   margin-bottom: 0;
   font-size: 1.15em;
   font-weight: 700;
-  color: #222;
-  border-bottom: 2px solid #333;
+  color: #1a2744;
+  border-bottom: 2px solid #1a2744;
   padding-bottom: 0.3em;
 }
