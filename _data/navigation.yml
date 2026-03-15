@@ -1,6 +1,12 @@
 main:
-  - title: "Research"
-    url: /publications/
+  - title: "Published Papers"
+    url: /published/
+
+  - title: "Working Papers"
+    url: /working-papers/
+
+  - title: "Policy Work"
+    url: /policy/
 
   - title: "CV"
     url: https://github.com/tmonarrez/personal_website/blob/main/CV_Monarrez.pdf
