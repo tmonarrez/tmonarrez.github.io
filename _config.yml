@@ -86,6 +86,8 @@ publication_category:
     title: 'Published Papers'
   working_papers:
     title: 'Working Papers'
+  work_in_progress:
+    title: 'Work in Progress'
   policy:
     title: 'Policy Work'
 

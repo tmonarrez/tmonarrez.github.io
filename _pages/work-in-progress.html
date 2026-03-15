@@ -1,0 +1,43 @@
+---
+layout: archive
+title: "Work in Progress"
+permalink: /work-in-progress/
+author_profile: true
+---
+
+{% include base_path %}
+
+{% assign papers = site.publications | where: "category", "work_in_progress" | sort: "date" | reverse %}
+{% for paper in papers %}
+<div class="paper-entry">
+
+  <div class="paper-title">
+    {% if paper.paperurl %}
+      <a href="{{ paper.paperurl }}">{{ paper.title }}</a>
+    {% else %}
+      {{ paper.title }}
+    {% endif %}
+  </div>
+
+  <div class="paper-meta">
+    {% if paper.coauthors %}With {{ paper.coauthors }} &bull; {% endif %}
+    {% if paper.venue %}<em>{{ paper.venue }}</em>, {% endif %}{{ paper.date | date: "%Y" }}
+  </div>
+
+  {% if paper.abstract %}
+  <details class="abstract">
+    <summary>Abstract</summary>
+    <div class="abstract-text">{{ paper.abstract }}</div>
+  </details>
+  {% endif %}
+
+  <div class="paper-links">
+    {% if paper.paperurl %}<a href="{{ paper.paperurl }}">Journal</a>{% endif %}
+    {% if paper.wpurl %}<a href="{{ paper.wpurl }}">Working Paper</a>{% endif %}
+    {% if paper.pdfurl %}<a href="{{ paper.pdfurl }}">PDF</a>{% endif %}
+    {% if paper.dataurl %}<a href="{{ paper.dataurl }}">Data</a>{% endif %}
+    {% for item in paper.press %}<a href="{{ item.url }}">{{ item.name }}</a>{% endfor %}
+  </div>
+
+</div>
+{% endfor %}
