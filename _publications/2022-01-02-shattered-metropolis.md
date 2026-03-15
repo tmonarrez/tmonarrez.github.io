@@ -3,7 +3,7 @@ title: "Shattered Metropolis: The Great Migration and the Fragmentation of Polit
 collection: publications
 category: working_papers
 permalink: /publication/shattered-metropolis
-date: 2022-01-02
+date: 2025-01-02
 venue: 'Revision Requested at American Economic Journal: Economic Policy'
 coauthors: 'Jamie McCasland, David Schönholzer, and Everett Stamm'
 pdfurl: 'https://github.com/tmonarrez/personal_website/blob/main/papers/shattered_metropolis/shattered_metropolis.pdf'
