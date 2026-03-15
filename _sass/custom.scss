@@ -1,15 +1,21 @@
 // Custom styles for tmonarrez.github.io
 
-// Site-wide text color
-.page__content {
-  color: #000;
+// Override theme CSS variables
+:root {
+  --global-text-color: #000;
+  --global-text-color-light: #555;
 }
 
 // Page titles and headings
 h1, h2, h3, h4, h5, h6,
 .page__title,
 .archive__item-title {
-  color: #1a2744;
+  color: #1a2744 !important;
+}
+
+// Sidebar name
+.author__name {
+  color: #1a2744 !important;
 }
 
 // Research page paper entries
