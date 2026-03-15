@@ -10,12 +10,12 @@
 h1, h2, h3, h4, h5, h6,
 .page__title,
 .archive__item-title {
-  color: #1a2744 !important;
+  color: #1e3a5f !important;
 }
 
 // Sidebar name
 .author__name {
-  color: #1a2744 !important;
+  color: #1e3a5f !important;
 }
 
 // Research page paper entries
@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5, h6,
   line-height: 1.4;
 
   a {
-    color: #1a2744;
+    color: #1e3a5f;
     text-decoration: none;
 
     &:hover {
@@ -81,7 +81,7 @@ details.abstract {
     padding: 0.7em 1em;
     margin-top: 0.4em;
     background: #f9f9f9;
-    border-left: 3px solid #1a2744;
+    border-left: 3px solid #1e3a5f;
   }
 }
 
@@ -94,15 +94,15 @@ details.abstract {
     padding: 2px 9px;
     margin: 0 4px 4px 0;
     font-size: 0.78em;
-    border: 1px solid #1a2744;
+    border: 1px solid #1e3a5f;
     border-radius: 3px;
-    color: #1a2744;
+    color: #1e3a5f;
     text-decoration: none;
 
     &:hover {
-      background: #1a2744;
+      background: #1e3a5f;
       color: white;
-      border-color: #1a2744;
+      border-color: #1e3a5f;
       text-decoration: none;
     }
   }
@@ -114,7 +114,7 @@ details.abstract {
   margin-bottom: 0;
   font-size: 1.15em;
   font-weight: 700;
-  color: #1a2744;
-  border-bottom: 2px solid #1a2744;
+  color: #1e3a5f;
+  border-bottom: 2px solid #1e3a5f;
   padding-bottom: 0.3em;
 }
