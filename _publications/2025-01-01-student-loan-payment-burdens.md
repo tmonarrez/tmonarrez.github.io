@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/2025-student-loan-payment-burdens
 date: 2025-01-01
-venue: 'Review of Financial Studies'
+venue: 'Review of Financial Studies, Forthcoming'
 coauthors: 'Lesley Turner'
 paperurl: 'https://academic.oup.com/rfs/advance-article-abstract/doi/10.1093/rfs/hhaf076/8268013?redirectedFrom=fulltext'
 wpurl: 'https://www.philadelphiafed.org/-/media/FRBP/Assets/working-papers/2024/wp24-08.pdf'
