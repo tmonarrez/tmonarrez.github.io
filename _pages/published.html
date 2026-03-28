@@ -34,7 +34,7 @@ author_profile: true
   <div class="paper-links">
     {% if paper.paperurl %}<a href="{{ paper.paperurl }}">Journal</a>{% endif %}
     {% if paper.wpurl %}<a href="{{ paper.wpurl }}">Working Paper</a>{% endif %}
-    {% if paper.pdfurl %}<a href="{{ paper.pdfurl }}">PDF</a>{% endif %}
+    {% if paper.pdfurl %}<a href="{{ paper.pdfurl }}">{{ paper.pdflabel | default: "PDF" }}</a>{% endif %}
     {% if paper.dataurl %}<a href="{{ paper.dataurl }}">Data</a>{% endif %}
     {% if paper.doi %}<a href="https://doi.org/{{ paper.doi }}">DOI</a>{% endif %}
     {% for item in paper.press %}<a href="{{ item.url }}">{{ item.name }}</a>{% endfor %}
