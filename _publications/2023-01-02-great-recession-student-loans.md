@@ -3,7 +3,7 @@ title: "The Effect of the Great Recession on Student Loan Borrowing and Repaymen
 collection: publications
 category: manuscripts
 permalink: /publication/great-recession-student-loans
-date: 2026-01-01
+date: 2026-05-09
 venue: 'Economics of Education Review, <em>Accepted</em>'
 coauthors: 'Michel Grosz'
 pdfurl: 'https://www.philadelphiafed.org/-/media/FRBP/Assets/working-papers/2025/wp25-13.pdf'
