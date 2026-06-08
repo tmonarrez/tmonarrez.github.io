@@ -1,7 +1,7 @@
 ---
 title: "Boundaries in Motion: Effectiveness and Efficiency of School Redistricting"
 collection: publications
-category: work_in_progress
+category: working_papers
 permalink: /publication/boundaries-in-motion
 date: 2026-01-02
 coauthors: 'David Schönholzer and Yifei Wang'
