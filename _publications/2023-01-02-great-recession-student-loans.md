@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/great-recession-student-loans
 date: 2026-06-01
-venue: 'Economics of Education Review, 112: Article 102796'
+venue: 'Economics of Education Review, 112: 102796'
 coauthors: 'Michel Grosz'
 paperurl: 'https://www.sciencedirect.com/science/article/abs/pii/S0272775726000385'
 doi: '10.1016/j.econedurev.2026.102796'
